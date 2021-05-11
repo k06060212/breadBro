@@ -4,7 +4,7 @@ public class Sample04 {
 
 	public static void main(String[] args) {
 		String fruit = "Apple";
-		System.out.println(fruit.toUpperCase());	// toUpperCas() ´ë¹®ÀÚ·Î º¯°æ
+		System.out.println(fruit.toUpperCase());	// toUpperCas() ï¿½ë¹®ï¿½Ú·ï¿½ ï¿½ï¿½ï¿½ï¿½
 		
 	}
 }

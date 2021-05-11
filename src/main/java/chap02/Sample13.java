@@ -16,13 +16,13 @@ public class Sample13 {
 		var map2 = new HashMap<String, String>();
 		System.out.println(map2.toString());
 		
-//		var name;	// Å¸ÀÔ Ãß·ĞÇüÀÓÀ¸·Î °ªÀÌ(¸®ÅÍ·²) ÁÖ¾îÁöÁö ¾ÊÀ¸¸é Ãß·ĞÇÏÁö ¸øÇÏ¹Ç·Î ¿¡·¯ ¹ß»ı
-		var name = "³ª¾î¶§";
+//		var name;	// ìë£Œí˜•ì„ ì¶”ë¡ í•  ë•Œ ë¦¬í„°ëŸ´ì´ ì—†ìœ¼ë©´ ì¶”ë¡ í•  ìˆ˜ ì—†ì–´ì„œ ì—ëŸ¬ê°€ ë°œìƒ
+		var name = "ë‚˜ì–´ë•Œî¶§";
 		var age = 28;
 		var height = 185.6f;
-		System.out.println("ÀÌ¸§ : " + name);
-		System.out.println("³ªÀÌ : " + age);
-		System.out.println("Å° : " + height);
+		System.out.println("ì´ë¦„ : " + name);
+		System.out.println("ë‚˜ì´ : " + age);
+		System.out.println("í‚¤ : " + height);
 	}
 
 }
