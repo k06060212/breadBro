@@ -1,0 +1,20 @@
+##1. 주석
+	- 한 줄 주석 : //	 단축키 : Ctrl + / 
+	- 여러줄 주석 : /**/	 단축키 : Ctrl + Shift + / 
+	
+	- 코드 템플릿 :  Alt + Shift + J
+
+		/**
+		 *
+		 * @param in
+		 * @return
+		 * @since 1.0
+		 * 2021. 5. 12.
+		 */
+		public int getValue2(int in) {
+			return in;
+		}
+	
+##2. javadoc 
+
+Project - Generate Javadoc 
