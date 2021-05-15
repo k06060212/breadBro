@@ -4,11 +4,11 @@ public class Sample07 {
 
 	public static void main(String[] args) {
 		
-		// ¹¬½ÃÀû Çü º¯È¯
-		short a = 32767;	//short ÃÖ´ë°ª
+		// ë¬µì‹œì  í˜• ë³€í™˜
+		short a = 32767;	//short ìµœëŒ€ê°’
 		int   b = 5000000; 	
 		
-		b = a; 	// ¹¬½ÃÀû Çü º¯È¯
+		b = a; 	// ë¬µì‹œì  í˜• ë³€í™˜
 		System.out.println(b);
 	}
 }

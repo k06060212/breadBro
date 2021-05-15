@@ -3,10 +3,10 @@ package chap02;
 public class Sample03 {
 
 	public static void main(String[] args) {
-		byte   a1 = -128;		// byte ÃÖ¼Ò°ª
-		byte   a2 = 127;		// byte ÃÖ´ë°ª
-		short  b1 = -32768;	// short ÃÖ¼Ò°ª
-		short  b2 = 32767;	// short ÃÖ´ë°ª
+		byte   a1 = -128;		// byte ìµœì†Œê°’
+		byte   a2 = 127;		// byte ìµœëŒ€ê°’
+		short  b1 = -32768;	// short ìµœì†Œê°’
+		short  b2 = 32767;	// short ìµœëŒ€ê°’
 		int    c = 10000;
 		long   d = 10000L;
 		float  e = 10.1f;
@@ -16,6 +16,6 @@ public class Sample03 {
 		System.out.printf("int : %d,\t\t long : %d%n", c, d);
 		System.out.printf("int : %f,\t long : %f%n", e, f);
 		
-//		alt + shift + a ºí·ÏÁöÁ¤
+//		alt + shift + a ë¸”ë¡ì§€ì •
 	}
 }

@@ -7,25 +7,25 @@ public class Sample11 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-//		String in = new String("ÀÔ·Â°ª");
+//		String in = new String("ì…ë ¥ê°’");
 //		System.out.println(in);
-//		String in = sc.next();	// Å°º¸µå·ÎºÎÅÍ ¹®ÀÚ¿­À» ÀÔ·Â ¹Ş´Â °Í
-//		String in2 = sc.next();	// Å°º¸µå·ÎºÎÅÍ ¹®ÀÚ¿­À» ÀÔ·Â ¹Ş´Â °Í
+//		String in = sc.next();	// í‚¤ë³´ë“œë¡œë¶€í„° ë¬¸ìì—´ì„ ì…ë ¥ ë°›ëŠ” ê²ƒ
+//		String in2 = sc.next();	// í‚¤ë³´ë“œë¡œë¶€í„° ë¬¸ìì—´ì„ ì…ë ¥ ë°›ëŠ” ê²ƒ
 //		int inNum = sc.nextInt();
 //		long inLong = sc.nextLong();
 //		char inChar = sc.next().charAt(0); 	
-//		System.out.printf("ÀÔ·ÂÇÑ °ª : %s\n±ÛÀÚ ¼ö : %d\n", in, in.length());
-//		System.out.printf("ÀÔ·ÂÇÑ °ª : %s\n±ÛÀÚ ¼ö : %d\n", in2, in2.length());
+//		System.out.printf("ì…ë ¥í•œ ê°’ : %s\nê¸€ì ìˆ˜ : %d\n", in, in.length());
+//		System.out.printf("ì…ë ¥í•œ ê°’ : %s\nê¸€ì ìˆ˜ : %d\n", in2, in2.length());
 		
 		// apple banana 
 		// 1234 5678
 		
 		String in = sc.nextLine();
 		
-		System.out.printf("ÀÔ·ÂÇÑ °ª : [%s]\n±ÛÀÚ ¼ö : %d\n", in.toUpperCase().trim()
+		System.out.printf("ì…ë ¥í•œ ê°’ : [%s]\nê¸€ì ìˆ˜ : %d\n", in.toUpperCase().trim()
 				, in.toUpperCase().trim().length());
 		
-		// trim °ø¹é Á¦°Å
+		// trim ê³µë°± ì œê±°
 		
 	}
 }

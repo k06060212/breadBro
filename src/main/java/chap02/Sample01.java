@@ -4,27 +4,27 @@ public class Sample01 {
 	
 	public static void main(String[] args) {
 
-//		[º¯¼öÀÇ ÀÚ·áÇü] [º¯¼ö¸í] =  ¸®ÅÍ·²
+//		[ë³€ìˆ˜ì˜ ìë£Œí˜•] [ë³€ìˆ˜ëª…] =  ë¦¬í„°ëŸ´
 		
-//		±âº» ÀÚ·áÇü
-//		1. ³í¸®Çü
-//		2. ¹®ÀÚÇü
-//		3. ¼ıÀÚÇü
+//		ê¸°ë³¸ ìë£Œí˜•
+//		1. ë…¼ë¦¬í˜•
+//		2. ë¬¸ìí˜•
+//		3. ìˆ«ìí˜•
 		
-//		¼ıÀÚÇü
+//		ìˆ«ìí˜•
 		int score = 100;
 		score = score + 200;
 		System.out.printf("%d", score);
 		
 		System.out.println("==========================");
-//		³í¸®Çü(º¸Åë º¯¼ö¸í ¾Õ¿¡ is¸¦ ºÙ¿©ÁØ´Ù. Á¸Àç ÇÏ´À³Ä ÇÏÁö ¾Ê´À³Ä, has °¡Áö°í ÀÖ´À³Ä °¡Áö°í ÀÖÁö ¾Ê´À³Ä)
+//		ë…¼ë¦¬í˜•(ë³´í†µ ë³€ìˆ˜ëª… ì•ì— isë¥¼ ë¶™ì—¬ì¤€ë‹¤. ì¡´ì¬ í•˜ëŠëƒ í•˜ì§€ ì•ŠëŠëƒ, has ê°€ì§€ê³  ìˆëŠëƒ ê°€ì§€ê³  ìˆì§€ ì•ŠëŠëƒ)
 		boolean isExist = true;
 		boolean hasClass = true;
 		
 		System.out.println("==========================");
-//		¹®ÀÚÇü
+//		ë¬¸ìí˜•
 		char chr = 'A';
-		System.out.println("char : " + chr); 			// ¹®ÀÚ
+		System.out.println("char : " + chr); 			// ë¬¸ì
 		System.out.println("Incoding : " + (int)chr);	//
 		System.out.println("Decoding : " + (char)65);	//
 		

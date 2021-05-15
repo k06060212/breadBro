@@ -8,19 +8,19 @@ public class Sample12 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("int ÀÚ·áÇüÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("int ìë£Œí˜•ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		int a = sc.nextInt();
 		
-		System.out.print("char ÀÚ·áÇüÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("char ìë£Œí˜•ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		int b = sc.next().charAt(0);
 		
-		System.out.print("long ÀÚ·áÇüÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("long ìë£Œí˜•ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		long c = sc.nextLong();
 		
-		System.out.print("double ÀÚ·áÇüÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("double ìë£Œí˜•ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		double d = sc.nextDouble();
 		
-		System.out.print("String ÀÚ·áÇüÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("String ìë£Œí˜•ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		String e = sc.next();
 		
 		System.out.println("int : " + a);

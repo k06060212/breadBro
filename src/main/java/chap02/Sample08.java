@@ -4,16 +4,16 @@ public class Sample08 {
 
 	public static void main(String[] args) {
 		int a = 65;
-		byte b = (byte)a;	// int¸¦ byte·Î ¸í½ÃÀû Çü º¯È¯
+		byte b = (byte)a;	// intë¥¼ byteë¡œ ëª…ì‹œì  í˜• ë³€í™˜
 		System.out.println(b);
 		
-		b = (byte)(a+1);	// a + 1 Á¤¼ö ¿¬»ê ÈÄ byte·Î ¸í½ÃÀû Çü º¯È¯
+		b = (byte)(a+1);	// a + 1 ì •ìˆ˜ ì—°ì‚° í›„ byteë¡œ ëª…ì‹œì  í˜• ë³€í™˜
 		System.out.println(b);
 		
-		a = b;				// byte b¸¦ ´õ Å« ¹üÀ§¸¦ °®´Â int a¿¡ ÀÚµ¿ Çü º¯È¯
+		a = b;				// byte bë¥¼ ë” í° ë²”ìœ„ë¥¼ ê°–ëŠ” int aì— ìë™ í˜• ë³€í™˜
 		System.out.println(b);
 		
-		b = (byte)a;		// int a¸¦ byte b·Î ÀÛÀº ¹üÀ§ÀÎ byte·Î °­Á¦ Çü º¯È¯
+		b = (byte)a;		// int aë¥¼ byte bë¡œ ì‘ì€ ë²”ìœ„ì¸ byteë¡œ ê°•ì œ í˜• ë³€í™˜
 		System.out.println(b);
 	}
 }

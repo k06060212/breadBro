@@ -3,21 +3,21 @@ package chap02;
 public class Sample09 {
 
 	public static void main(String[] args) {
-		// ¹®ÀÚ¿­À» ¼ıÀÚÇüÀ¸·Î º¯È¯
+		// ë¬¸ìì—´ì„ ìˆ«ìí˜•ìœ¼ë¡œ ë³€í™˜
 		String a1 = "1234";
 		int    a2 = Integer.parseInt(a1);
 		
-		// Á¤¼ö ¼ıÀÚÇüÀ» ¹®ÀÚ¿­·Î º¯È¯
+		// ì •ìˆ˜ ìˆ«ìí˜•ì„ ë¬¸ìì—´ë¡œ ë³€í™˜
 		int    b1 = 5678;
-		String b2 = Integer.toString(b1);	// ¹æ¹ı1
-		String b3 = String.valueOf(b1);		// ¹æ¹ı2
-		String b4 = "" + b1;				// ¹æ¹ı3
+		String b2 = Integer.toString(b1);	// ë°©ë²•1
+		String b3 = String.valueOf(b1);		// ë°©ë²•2
+		String b4 = "" + b1;				// ë°©ë²•3
 		
-		//½Ç¼ö ¼ıÀÚÇüÀ» ¹®ÀÚ¿­·Î º¯È¯
+		//ì‹¤ìˆ˜ ìˆ«ìí˜•ì„ ë¬¸ìì—´ë¡œ ë³€í™˜
 		float  c1 = 1234.5679f;
-		String c2 = Float.toString(c1);	// ¹æ¹ı1
-		String c3 = String.valueOf(c1);		// ¹æ¹ı2
-		String c4 = "" + c1;				// ¹æ¹ı3
+		String c2 = Float.toString(c1);	// ë°©ë²•1
+		String c3 = String.valueOf(c1);		// ë°©ë²•2
+		String c4 = "" + c1;				// ë°©ë²•3
 		
 		
 		System.out.println("String to Int 	 :: " + a2);

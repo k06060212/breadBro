@@ -5,7 +5,7 @@ public class Sample10 {
 	public static void main(String[] args) {
 		
 		String a1 = "abcd";
-		char[] a2 = a1.toCharArray();	// ¹®ÀÚ¿­À» ¹®ÀÚ¹è¿­·Î º¯È¯
+		char[] a2 = a1.toCharArray();	// ë¬¸ìì—´ì„ ë¬¸ìë°°ì—´ë¡œ ë³€í™˜
 		
 		char b1 = 'a';
 		String b2 = String.valueOf(b1);

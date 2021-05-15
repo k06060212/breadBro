@@ -3,15 +3,15 @@ package chap02;
 public class Sample06 {
 
 	public static void main(String[] args) {
-		int a = 32767;	// short ÃÖ´ë°ª
+		int a = 32767;	// short ìµœëŒ€ê°’
 		short b = 40;
 		
-//		b = a;	intÇüÀ» shortÇüÀ¸·Î º¯È¯ÇÒ ¼ö ¾ø´Ù´Â error ¹ß»ı
+//		b = a;	intí˜•ì„ shortí˜•ìœ¼ë¡œ ë³€í™˜í•  ìˆ˜ ì—†ë‹¤ëŠ” error ë°œìƒ
 		b = (short) a;
 		System.out.println(b);	// 32767
 		
-		int c = 32768;	// short ÃÖ´ë°ª + 1, ¶Ç´Â ´Ù¸¥ °ªÀ» ³Ö¾î¼­ test ÇØº»´Ù.
-		b = (short) c;	// ¸í½ÃÀû Çü º¯È¯
-		System.out.println(b);	// -32768 À½¼ö°¡ ¾Æ´Ñµ¥ À½¼ö·Î ³ª¿Ô´Ù.
+		int c = 32768;	// short ìµœëŒ€ê°’ + 1, ë˜ëŠ” ë‹¤ë¥¸ ê°’ì„ ë„£ì–´ì„œ test í•´ë³¸ë‹¤.
+		b = (short) c;	// ëª…ì‹œì  í˜• ë³€í™˜
+		System.out.println(b);	// -32768 ìŒìˆ˜ê°€ ì•„ë‹Œë° ìŒìˆ˜ë¡œ ë‚˜ì™”ë‹¤.
 	}
 }
