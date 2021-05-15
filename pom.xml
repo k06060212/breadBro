@@ -8,6 +8,8 @@
 
 	<properties>
 		<java.version>15.0.2</java.version>
+		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
 	</properties>
 
 	<dependencies>
