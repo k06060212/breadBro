@@ -24,35 +24,12 @@ public class Ex03 {
 		System.out.println(Arrays.toString(toBuy));
 		System.out.println(Arrays.toString(buy));
 		
+		System.out.println("== 구입하지 못한 물건 ==");
+		System.out.printf("%s", Arrays.binarySearch(buy, toBuy[0]) < 0 ? toBuy[0] + "\n" : "");
+		System.out.printf("%s", Arrays.binarySearch(buy, toBuy[1]) < 0 ? toBuy[1] + "\n" : "");
+		System.out.printf("%s", Arrays.binarySearch(buy, toBuy[2]) < 0 ? toBuy[2] + "\n" : "");
+		System.out.printf("%s", Arrays.binarySearch(buy, toBuy[3]) < 0 ? toBuy[3] + "\n" : "");
+		System.out.printf("%s", Arrays.binarySearch(buy, toBuy[4]) < 0 ? toBuy[4] + "\n" : "");
 		
-		for(int i=0; i < toBuy.length; i++) {
-//			int idx = Arrays.binarySearch(toBuy, buy[i]); 0, 2, 5
-//			System.out.println(idx);
-			for(int j = 0; j < buy.length; j++) {
-				if(toBuy[i] != buy[j] ) {
-					
-				}
-			}
-		}		
-		
-//		for(int i=0; i < buy.length; i++) {
-//			for(int o=0; o < toBuy.length; o++) {
-//				
-////				Static int binarySearch(Object[] a, Object key)
-////				- 이진 검색 알고리즘을 사용하여 지정된 값을 배열에서 찾아서 인덱스를 반환
-////			
-////				Static int binarySearch(Object[] a, int formIndex, int toIndex, Object key)
-////				- 이진 검색 알고리즘을 사용하여 지정된 값을 배열의 지정된 범위 내에서 찾아서 인덱스를 반환
-//				
-//				if() {
-//					
-//					
-//					
-////					List<String> result  = Arrays.asList(toBuy[i]);
-////					System.out.println("result : " + result);
-////					break;
-//				}
-//			}
-//		}		
 	}
 }

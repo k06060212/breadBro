@@ -12,16 +12,10 @@ public class Sample11 {
 		
 		System.out.println("* NOT");
 		System.out.printf("[%32s] ~ [%32s] = %d ~ %d\n", 
-				Integer.toBinaryString(a), 
-				Integer.toBinaryString(~a), 
-				a, 
-				~a);
+				Integer.toBinaryString(a), Integer.toBinaryString(~a), a, ~a);
 		
 		System.out.printf("[%32s] ~ [%32s] = %d ~ %d\n", 
-				Integer.toBinaryString(b), 
-				Integer.toBinaryString(~b), 
-				b, 
-				~b);
+				Integer.toBinaryString(b), Integer.toBinaryString(~b), b, ~b);
 			
 	}
 
