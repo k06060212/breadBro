@@ -16,6 +16,5 @@ public class Sample12 {
 			
 		};
 		r.run();
-		r.run();		
 	}
 }
