@@ -12,3 +12,6 @@ public class Sample20 {
 		return "Sample20 []";
 	}
 }
+
+// 사용하지 않을 것을 권장할 때 사용한다.
+
