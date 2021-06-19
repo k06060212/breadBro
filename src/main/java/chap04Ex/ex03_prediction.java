@@ -1,4 +1,4 @@
-package chap01Ex;
+package chap04Ex;
 
 /**
  * @author k0606

@@ -1,4 +1,4 @@
-package chap02Ex;
+package chap05Ex;
 
 import java.util.ArrayList;
 import java.util.Arrays;
