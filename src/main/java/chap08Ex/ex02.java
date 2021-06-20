@@ -1,5 +1,7 @@
 package chap08Ex;
 
+import java.util.Scanner;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -21,7 +23,27 @@ public class ex02 {
 		personInfo[idx++] = new Friend("Dobi4", 103, "010-1234-1237"); 
 		personInfo[idx++] = new Friend("Dobi5", 104, "010-1234-1238"); 
 		
+		System.out.println("== List ==");
+		for(Friend friend : personInfo) {
+			System.out.println(friend.getName());
+		}
+		System.out.println();
 		
+		do {
+			System.out.println("신상을 알고싶은 사람의 이름을 입력해주세요 : ");
+			String in = new Scanner(System.in).next();
+			
+			if("0".equals(in)) {
+				System.out.println("프로그램을 종료합니다.");
+				break;
+			}else {
+				for(Friend friend : personInfo) {
+					if(friend.getName().equals(in)) {
+						System.out.println(friend.toString() + "\n");
+					}
+				}
+			}
+		}while(true);
 	}
 }
 
